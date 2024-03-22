@@ -39,8 +39,3 @@
    ```bash
    ssh-add ~/.ssh/id_rsa
    ```
-
-2. Vous pouvez désormais cloner, pousser et accéder à vos dépôts GitHub sans avoir à entrer de nom d'utilisateur ou de mot de passe.
-```
-
-Assurez-vous que chaque ligne est correctement formatée et qu'il n'y a pas d'erreurs de syntaxe. Si l'erreur persiste, vérifiez à nouveau la ligne 7 du fichier README.md pour vous assurer qu'elle est correctement écrite.
