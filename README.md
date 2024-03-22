@@ -1,5 +1,3 @@
-Bien sûr, voici une version plus structurée de la documentation pour configurer les clés SSH pour GitHub :
-
 ## Configuration des clés SSH pour GitHub
 
 ### Génération de la paire de clés SSH
