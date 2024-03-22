@@ -17,11 +17,11 @@
 
 1. Copiez le contenu de votre clé publique en utilisant la commande suivante (sur Unix/Linux) :
    ```bash
-   cat ~/.ssh/id_rsa.pub
+   cat ~//.ssh//id_rsa.pub
    ```
    Sur Windows, utilisez cette commande :
    ```bash
-   type C:\chemin\vers\votre\fichier\id_rsa.pub
+   type C:\\chemin\\vers\\votre\\fichier\\id_rsa.pub
    ```
 
 2. Connectez-vous à votre compte GitHub et accédez aux paramètres de sécurité.
