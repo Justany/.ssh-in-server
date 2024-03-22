@@ -1,7 +1,3 @@
-Il semble que l'erreur soit liée à une syntaxe incorrecte dans le fichier YAML. Assurez-vous que le fichier README.md ne contient pas de syntaxe YAML incorrecte, en particulier au niveau de la ligne 7, colonne 78.
-
-Voici un exemple de contenu correct pour le README.md :
-
 ```markdown
 # Configuration des clés SSH pour GitHub
 
