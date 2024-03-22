@@ -1,5 +1,8 @@
----
+Il semble que l'erreur soit liée à une syntaxe incorrecte dans le fichier YAML. Assurez-vous que le fichier README.md ne contient pas de syntaxe YAML incorrecte, en particulier au niveau de la ligne 7, colonne 78.
 
+Voici un exemple de contenu correct pour le README.md :
+
+```markdown
 # Configuration des clés SSH pour GitHub
 
 ## Génération de la paire de clés SSH
@@ -17,11 +20,11 @@
 
 1. Copiez le contenu de votre clé publique en utilisant la commande suivante (sur Unix/Linux) :
    ```bash
-   cat ~//.ssh//id_rsa.pub
+   cat ~/.ssh/id_rsa.pub
    ```
    Sur Windows, utilisez cette commande :
    ```bash
-   type C:\\chemin\\vers\\votre\\fichier\\id_rsa.pub
+   type C:\chemin\vers\votre\fichier\id_rsa.pub
    ```
 
 2. Connectez-vous à votre compte GitHub et accédez aux paramètres de sécurité.
@@ -42,7 +45,6 @@
    ```
 
 2. Vous pouvez désormais cloner, pousser et accéder à vos dépôts GitHub sans avoir à entrer de nom d'utilisateur ou de mot de passe.
+```
 
----
-
-Vous pouvez personnaliser ce guide en fonction de vos préférences et de votre environnement spécifique. Assurez-vous de remplacer "votre@email.com" par votre adresse e-mail GitHub et "C:\chemin\vers\votre\fichier\id_rsa.pub" par le chemin complet vers votre fichier id_rsa.pub si vous êtes sur Windows.
+Assurez-vous que chaque ligne est correctement formatée et qu'il n'y a pas d'erreurs de syntaxe. Si l'erreur persiste, vérifiez à nouveau la ligne 7 du fichier README.md pour vous assurer qu'elle est correctement écrite.
