@@ -1,7 +1,8 @@
-```markdown
-# Configuration des clés SSH pour GitHub
+Bien sûr, voici une version plus structurée de la documentation pour configurer les clés SSH pour GitHub :
 
-## Génération de la paire de clés SSH
+## Configuration des clés SSH pour GitHub
+
+### Génération de la paire de clés SSH
 
 1. Ouvrez un terminal sur votre système d'exploitation.
 
@@ -9,10 +10,11 @@
    ```bash
    ssh-keygen -t rsa -b 4096 -C "votre@email.com"
    ```
+   Veillez à remplacer "votre@email.com" par votre propre adresse e-mail.
 
 3. Suivez les instructions à l'écran pour spécifier l'emplacement où enregistrer la paire de clés et, si nécessaire, un mot de passe pour sécuriser votre clé privée.
 
-## Ajout de la clé publique à votre compte GitHub
+### Ajout de la clé publique à votre compte GitHub
 
 1. Copiez le contenu de votre clé publique en utilisant la commande suivante (sur Unix/Linux) :
    ```bash
@@ -33,9 +35,11 @@
 
 6. Cliquez sur "Ajouter une clé SSH" pour enregistrer la clé sur votre compte GitHub.
 
-## Utilisation de la clé SSH pour les opérations Git
+### Utilisation de la clé SSH pour les opérations Git
 
 1. Assurez-vous que votre clé privée est chargée dans votre agent SSH en utilisant la commande suivante :
    ```bash
    ssh-add ~/.ssh/id_rsa
    ```
+
+2. Vous pouvez désormais cloner, pousser et accéder à vos dépôts GitHub sans avoir à entrer de nom d'utilisateur ou de mot de passe.
